@@ -51,6 +51,7 @@ dependencies {
     implementation(libs.androidx.material3)
     // ... dependensi lain
     implementation("androidx.navigation:navigation-compose:2.8.0-beta05")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.9.4")
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
